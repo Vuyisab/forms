@@ -1,4 +1,4 @@
-import { ContactPage, contactPageAction } from "./ContactPage";
+import { ContactPage } from "./ContactPage";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,7 +15,6 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactPage />,
-    action: contactPageAction,
   },
   {
     path: "/thank-you/:name",
